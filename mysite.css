@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+header {
+    background: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 10;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 580px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+.logo {
+    float: left;
+    font-size: 80px;
+    padding-left: 20px;
+}
+
+nav {
+    float: right;
+    padding: 50px 20px;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.menu-link{
+    padding-top: 10px;
+}
+
+.content-wrapper {
+    padding: 180px 0 100px 0;
+    letter-spacing: 3px;
+}
+
+.title-content {
+    padding-bottom: 30px;
+}
+.title-content h1 {
+    font-size: 60px;
+}
+.title-content p {
+    font-size: 17px;
+}
+
+.order-btn{
+    display: inline-block;
+    color: #fff;
+    background: #5fa05e;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.order-btn:hover {
+    opacity: 0.7;
+}
+
+.order-link{
+    border: 3px solid #fff;
+    padding: 8px 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.order-link:hover {
+    background: #fff;
+    color: #000;
+}
+
+.sub-title{
+    padding: 70px 0 130px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+}
+
+.title-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title-text h1 {
+    font-weight: normal;
+}
+
+.title-text p {
+    margin: 15px 0 30px 0;
+}
+
+.change-btn-wrapper {
+    padding: 0 360px;
+}
+
+
+.next-btn {
+    float: right;
+    cursor: pointer;
+    background: #dddddd;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+.prev-btn {
+    float: left;
+    cursor: pointer;
+    display: none;
+    margin-left: 46px;
+    background: #dddddd;
+    border-radius: 5px;
+}
+
+
+.slide-wrapper {    
+    margin-left: 443px;
+
+}
+
+.slide-wrapper ul {
+    list-style: none;
+}
+
+.slides {
+    padding: 0px;
+}
+
+.slide {
+    display: none;
+}
+
+
+.active {
+    display: block;
+    width: 0;
+}
+
+.slides img {
+    width:300px;
+    margin: 0 auto; 
+}
+
+footer {
+    height: 50px;
+    background: #00a096;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-tiitle {
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
